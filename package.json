@@ -1,5 +1,5 @@
 {
-  "name": "passport-oauth2",
+  "name": "@waffleio/passport-oauth2",
   "version": "1.1.2",
   "description": "OAuth 2.0 authentication strategy for Passport.",
   "keywords": [
@@ -33,7 +33,7 @@
   "main": "./lib",
   "dependencies": {
     "passport-strategy": "1.x.x",
-    "oauth": "waffleio/node-oauth",
+    "@waffleio/oauth": "0.9.13",
     "uid2": "0.0.x"
   },
   "devDependencies": {
